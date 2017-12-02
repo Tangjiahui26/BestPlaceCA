@@ -5,7 +5,7 @@ date: '2017-12-01'
 output: github_document
 ---
 
-```{r, warning = FALSE, eval=FALSE}
+```{r, warning = FALSE, message=FALSE}
 library(httr)
 library(glue)
 library(rvest)
@@ -31,14 +31,14 @@ The website that I extracted is [bestplaces](https://www.bestplaces.net).
 
 ## Display data and plots
 
-```{r,warning = FALSE, eval=FALSE}
+```{r,warning = FALSE, message=FALSE}
 CA_cost <- read_csv("./CA_cost.csv")
 CA_job <- read_csv("./CA_job.csv")
 ```
 
 I scraped some data and created two data.frame for them, namely CA_job and CA_cost. The detailed informations are shown below.
 
-```{r,warning = FALSE, eval=FALSE}
+```{r,warning = FALSE, message=FALSE}
 knitr::kable(CA_job)
 knitr::kable(CA_cost)
 ```
