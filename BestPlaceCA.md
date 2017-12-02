@@ -50,7 +50,9 @@ knitr::kable(CA_cost)
 
 We can esaily find from the figure above that the average cost-of-living is higher than the average of US. Only very few counties' cost-of-living are below the US average. Also, the highest is San Francisco.
 
-*The Definitions:* *Overall cost-of-living:* *The total of all the cost of living categories weighted subjectively as follows: housing (30%), food and groceries (15%), transportation (10%), utilities (6%), health care (7%), and miscellaneous expenses such as clothing, services, and entertainment (32%). State and local taxes are not included in any category. Updated: December, 2016*
+*Overall cost-of-living:*
+
+*The total of all the cost of living categories weighted subjectively as follows: housing (30%), food and groceries (15%), transportation (10%), utilities (6%), health care (7%), and miscellaneous expenses such as clothing, services, and entertainment (32%). State and local taxes are not included in any category. Updated: December, 2016*
 
 ### Plot2: UnemploymentRate v.s. FutureJobGrowthRate
 
@@ -58,13 +60,21 @@ We can esaily find from the figure above that the average cost-of-living is high
 
 From the figure above we can see that most of counties in CA have a good future for people who want to search job because most results locate in the left upper hand corner(the UnemploymentRate is low and the FutureJobGrowthRate is high).
 
-*The Definitions:* *UnemploymentRate: The most recent unemployment data for an area. The unemployment rate is expressed as a percentage of the available work force that is not employed. Updated: December, 2016* *FutureJobGrowthRate: The projected change in job availability over the next ten years based on migration patterns, economic growth, and other factors. A projected decrease in available jobs is represented as a negative number. Updated: December, 2016*
+*UnemploymentRate: *
+
+*The most recent unemployment data for an area. The unemployment rate is expressed as a percentage of the available work force that is not employed. Updated: December, 2016*
+
+*FutureJobGrowthRate: *
+
+*The projected change in job availability over the next ten years based on migration patterns, economic growth, and other factors. A projected decrease in available jobs is represented as a negative number. Updated: December, 2016*
 
 ### Plot3: IncomePerCap in California
 
 ![](./IncomePerCap%20in%20California.png) The figure above is about the IncomePerCap in California.
 
-*The Definitions:* *IncomePerCap: The average income of every resident of a geographic area, including all adults and children. Updated: December, 2016*
+*IncomePerCap: *
+
+*The average income of every resident of a geographic area, including all adults and children. Updated: December, 2016*
 
 Useful Links
 ------------
