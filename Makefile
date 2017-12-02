@@ -1,8 +1,10 @@
-all: CA_job.csv CA_cost.csv
+all: BestPlaceCA.html
 
 clean:
 	rm -f *.csv
 	rm -f *.png
+	rm -f *.md
+	rm -f *.html
 
 CA_counties_job.csv CA_counties_cost.csv All_city_cost.csv All_city_job.csv:
 	Rscript ScrapeData.R
@@ -10,3 +12,6 @@ CA_counties_job.csv CA_counties_cost.csv All_city_cost.csv All_city_job.csv:
 CA_job.csv CA_cost.csv: TidyAndPlot.R All_city_cost.csv All_city_job.csv
 	Rscript $<
 	rm -f Rplots.pdf
+	
+BestPlaceCA.html: BestPlaceCA.Rmd CA_job.csv CA_cost.csv
+	Rscript -e 'rmarkdown::render("$<")'
